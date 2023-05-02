@@ -1,3 +1,0 @@
-# ForDomenica
-
-sac
