@@ -54,7 +54,7 @@ button {
 <body>
 
 <div id="question">
-    <p>¿Dejaremos en el olvido los Días que no te hablé?</p>
+    <p>¿Dejaremos en el olvido los días que no te hablé?</p>
     <button id="yes">Sí</button>
     <button id="no">No</button>
 </div>
@@ -78,8 +78,8 @@ no.addEventListener('mouseover', moveQuestion);
 no.addEventListener('click', moveQuestion);
 
 function moveQuestion() {
-    const x = Math.random() * (window.innerWidth - question.offsetWidth - 100) + 50;
-    const y = Math.random() * (window.innerHeight - question.offsetHeight - 100) + 50;
+    const x = Math.random() * (window.innerWidth - question.offsetWidth - 40) + 50;
+    const y = Math.random() * (window.innerHeight - question.offsetHeight - 40) + 50;
     question.style.top = y + 'px';
     question.style.left = x + 'px';
 }
